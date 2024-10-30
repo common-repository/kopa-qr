@@ -1,0 +1,143 @@
+/*!
+ * Kopa QR Code Control
+ *
+ * @author  Ivijan-Stefan Stipic
+ * @url     https://infinitumform.com/
+ */
+
+li.product > .woocommerce-loop-product-kopa-qr{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: inline-block;
+    padding: 8px 10px 2px;
+    background: rgba(255,255,255,0.8);
+}
+
+li.product > .woocommerce-loop-product-kopa-qr-container{
+	display:none;
+    position: absolute;
+    background: rgba(10, 10, 10, 0.9);
+    height: 100%;
+	width: 100%;
+    max-width: 100%;
+	z-index: 1;
+}
+
+li.product > .woocommerce-loop-product-kopa-qr-container .kopa-qr-close {
+	font-size: 30px;
+    font-weight: bold;
+    color: #ababab;
+    position: absolute;
+    top: 2px;
+    left: auto;
+    right: 2px;
+    background: none;
+    border: none;
+	cursor: pointer;
+	padding: 5px 10px;
+	margin:0;
+	z-index: 100;
+}
+
+li.product > .woocommerce-loop-product-kopa-qr-container > .woocommerce-loop-product-kopa-qr-link{
+	display: block;
+    position: relative;
+    top: 50%;
+    left: auto;
+    right: auto;
+	text-align: center;
+    -webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+    z-index: 10;
+	text-decoration:none;
+}
+
+li.product > .woocommerce-loop-product-kopa-qr-container .kopa-qr-close:hover,
+li.product > .woocommerce-loop-product-kopa-qr-container .kopa-qr-close:active,
+li.product > .woocommerce-loop-product-kopa-qr-container .kopa-qr-close:focus,
+li.product > .woocommerce-loop-product-kopa-qr-container > .woocommerce-loop-product-kopa-qr-link:hover,
+li.product > .woocommerce-loop-product-kopa-qr-container > .woocommerce-loop-product-kopa-qr-link:active,
+li.product > .woocommerce-loop-product-kopa-qr-container > .woocommerce-loop-product-kopa-qr-link:focus{
+	text-decoration:none;
+	border:none;
+}
+
+li.product > .woocommerce-loop-product-kopa-qr-container > .woocommerce-loop-product-kopa-qr-link img{
+	display: block;
+	width:inherit;
+	max-width:100%;
+	height:auto;
+	margin: 0 auto;
+	max-width: 190px;
+}
+li.product.kopa-qr-active {
+	position:relative;
+}
+li.product.kopa-qr-active > .woocommerce-loop-product-kopa-qr{
+	display:none;
+}
+li.product.kopa-qr-active > .woocommerce-loop-product-kopa-qr-container{
+	display:block;
+}
+
+li.product.kopa-qr-active > .woocommerce-loop-product-kopa-qr-container .kopa-qr-copied{
+	position: absolute;
+    z-index: 11;
+    background: lemonchiffon;
+    left: 0;
+    top: 58%;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*!
+ * DOKAN custom settings
+ *************************/
+ 
+.dokan-dashboard .dokan-dashboard-content a.kopa-qr-code-link{
+	display: table !important;
+    width: auto !important;
+    max-width: inherit !important;
+}
+ 
+/* Theme - TwentyTwenty */
+.dokan-theme-twentytwenty li.product > .woocommerce-loop-product-kopa-qr-container > .woocommerce-loop-product-kopa-qr-link img {
+	max-width: 80%;
+}
+
+.kopa-qr-copy-deep-link-container .kopa-qr-copy-deep-link-input{
+	max-width: 400px;
+    display: inline-block;
+}
+
+@media all and (max-width:768px) {
+	.dokan-theme-twentytwenty li.product > .woocommerce-loop-product-kopa-qr-container > .woocommerce-loop-product-kopa-qr-link img {
+		max-width: 100%;
+		transform: scale(0.4);
+	}
+}
+
+@media all and (max-width:512px) {
+	.dokan-theme-twentytwenty li.product > .woocommerce-loop-product-kopa-qr-container > .woocommerce-loop-product-kopa-qr-link img {
+		max-width: 100%;
+		transform: scale(0.5);
+	}
+}
+
+@media all and (max-width:380px) {
+	.dokan-theme-twentytwenty li.product > .woocommerce-loop-product-kopa-qr-container > .woocommerce-loop-product-kopa-qr-link img {
+		max-width: 100%;
+		transform: scale(0.6);
+	}
+}

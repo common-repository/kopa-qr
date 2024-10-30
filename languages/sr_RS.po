@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kopa QR code for Woocommerce\n"
+"POT-Creation-Date: 2023-03-17 22:44+0100\n"
+"PO-Revision-Date: 2023-03-17 22:44+0100\n"
+"Last-Translator: Ivijan-Stefan Stipić <infinitumform@gmail.com>\n"
+"Language-Team: INFINITUM FORM\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:ivijanstefan,"
+"creativform\n"
+"X-Poedit-WPHeader: kopa-qr-code.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: kopa-qr-code.php:138
+msgid "Above the title"
+msgstr "Изнад наслова"
+
+#: kopa-qr-code.php:139
+msgid "Below the title"
+msgstr "Испод наслова"
+
+#: kopa-qr-code.php:140
+msgid "Below the variations"
+msgstr "Испод варијација"
+
+#: kopa-qr-code.php:141
+msgid "Below Add to Cart Button"
+msgstr "Испод дугмета \"купи\""
+
+#: kopa-qr-code.php:190 kopa-qr-code.php:380
+msgid "Copied to clipboard!"
+msgstr "Копирано у подмеморију!"
+
+#: kopa-qr-code.php:274
+#, php-format
+msgid "The %1$s requires %2$s to be active."
+msgstr "%1$s захтева %2$s да би био активан."
+
+#: kopa-qr-code.php:274
+msgid "KÖPA QR extension"
+msgstr "KÖPA QR - екстензија"
+
+#: kopa-qr-code.php:274
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: kopa-qr-code.php:296 kopa-qr-code.php:301 kopa-qr-code.php:344
+#: kopa-qr-code.php:477 kopa-qr-code.php:517 kopa-qr-code.php:733
+msgid "KÖPA QR"
+msgstr "KÖPA QR"
+
+#: kopa-qr-code.php:306 kopa-qr-code.php:470
+msgid "Copy KÖPA QR Deep Link"
+msgstr "Копирај KÖPA QR линк"
+
+#: kopa-qr-code.php:308 kopa-qr-code.php:472
+msgid "Copy"
+msgstr "Копирај"
+
+#: kopa-qr-code.php:518
+msgid "General settings of the KÖPA QR plugin."
+msgstr "Општа подешавања KÖPA QR додатка."
+
+#: kopa-qr-code.php:523
+msgid "KÖPA QR position"
+msgstr "Позиција KÖPA QR кода"
+
+#: kopa-qr-code.php:524
+msgid "Choose where you want the KÖPA QR code to appear"
+msgstr "Одаберите где желите KÖPA QR код да се прикаже"
+
+#: kopa-qr-code.php:532
+msgid "KÖPA QR max width"
+msgstr "Максимална ширина Копа KÖPA QR кода"
+
+#: kopa-qr-code.php:533
+msgid "Set the maximum width of KÖPA QR code in single products."
+msgstr "Подесите максималну ширину KÖPA QR кода у појединачним производима."
+
+#: kopa-qr-code.php:618
+msgid "Choose where you want the KÖPA QR code to appear (optional)"
+msgstr "Изаберите где желите да се појави KÖPA QR код (опционално)"
+
+#: kopa-qr-code.php:627
+msgid "Display the KÖPA QR code."
+msgstr "Прикажи Копа KÖPA QR код."
+
+#: kopa-qr-code.php:629
+msgid "Yes"
+msgstr "Да"
+
+#: kopa-qr-code.php:630
+msgid "No"
+msgstr "Не"
+
+#. Plugin Name of the plugin/theme
+msgid "KOPA QR"
+msgstr "KÖPA QR"
+
+#. Description of the plugin/theme
+msgid ""
+"KÖPA allows you to add a QR code for automatic payment to WooCommerce "
+"products."
+msgstr ""
+"KÖPA вам омогућава да додате QR код за аутоматско плаћање WooCommerce "
+"производима."
+
+#. Author of the plugin/theme
+msgid "INFINITUM FORM"
+msgstr "INFINITUM FORM"
+
+#. Author URI of the plugin/theme
+msgid "https://infinitumform.com/"
+msgstr "https://infinitumform.com/"
+
+#~ msgid "Kopa QR code for Woocommerce"
+#~ msgstr "KÖPA QR код за WooCommerce"
+
+#~ msgid ""
+#~ "Adds an image field to the product edit screen and displays the image "
+#~ "below the short description on the single product page."
+#~ msgstr ""
+#~ "Додаје поље слике на екран за уређивање производа и приказује слику испод "
+#~ "кратког описа на страници једног производа."
+
+#~ msgid "QR Code"
+#~ msgstr "QR код"
+
+#~ msgid "Under the title"
+#~ msgstr "Испод наслова"
+
+#~ msgid "Default"
+#~ msgstr "Подразумевано"
+
+#~ msgid "Image URL"
+#~ msgstr "URL слике"
